@@ -1,0 +1,20 @@
+.Outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width:100vw;
+  height:100vh;
+}
+form{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 8rem;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(39, 158, 255);
+  box-shadow: 0 20px 17px #555;
+  display: flex;
+  justify-content: space-around;
+}
+

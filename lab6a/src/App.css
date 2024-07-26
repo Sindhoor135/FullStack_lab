@@ -1,0 +1,56 @@
+.Prod
+{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 3rem;
+ 
+}
+.Container
+{
+  width: 90vw;
+  height: 100vh;
+  padding: 0 40px;
+}
+
+h1
+{
+  opacity: .4;
+  font-size: 3rem;
+  border-bottom: 1px solid black;
+}
+img
+{
+  width:20rem;
+  height: 19rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+   border-bottom: 2px solid grey;
+
+}
+.Card
+{
+  border-radius: 1rem;
+  border: 3px solid grey;
+  /* box-shadow: 0 0px 20px 0px #4d4d4d; */
+  /* animation: dim 5s forwards infinite ease-in-out; */
+}
+/* @keyframes dim {
+  0%{
+    box-shadow: 0 0 50px 24px #4d4d4d;
+
+  }
+  50%
+  {
+    box-shadow: 0 0px 40px 1px #4d4d4d77;
+  }
+  100%{
+    box-shadow: 0 0 50px 24px #4d4d4d;
+
+  }
+  
+} */
+.Desc
+{
+  padding: 0 10px;
+}

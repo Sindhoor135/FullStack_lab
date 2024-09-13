@@ -13,7 +13,7 @@ fs.readFile('samp.txt',function(err,data){
 
 
 // Writing into File
-fs.writeFile('samp.txt','Updated Successfully !!!',function(err){
+fs.writeFile('samp2.txt','Updated Successfully !!!',function(err){
     if(err){
         console.log(err);
     }
@@ -35,7 +35,7 @@ fs.appendFile('samp.txt','Appended Successfully !!!',function(err){
 
 // //Deleting File
 
-fs.unlink('samp.txt',function(err){
+fs.unlink('new.txt',function(err){
     if(err){
         console.log(err);
     }
